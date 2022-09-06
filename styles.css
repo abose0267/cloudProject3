@@ -1,24 +1,33 @@
-
-.container{
-    width: 100%;
-    height: 100%;
-    background-color: #DCA194;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #dca194;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
 
-.navBarContainer{
+.navBarContainer {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  /* margin-bottom: 130px; */
+  /* background-color: #333333; */
 }
 .navBarItem {
   float: left;
+  margin-right: 120px;
+  margin-left: 120px;
+  /* border-bottom: 1px solid #333333; */
+  /* background-color: aquamarine; */
 }
 
 .navBarText {
@@ -29,18 +38,54 @@
   text-decoration: none;
 }
 
-.imageCont{
-  width: 320px;
-  height: 400px;
+.menuButton {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.buttonBackground {
+  background-color: lightgrey;
+}
+
+.imageCont {
+  width: 400px;
+  height: 500px;
   margin-right: 50px;
 }
-.imageTextCont{
+.imageTextCont {
   display: flex;
   margin-right: 400px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 .contactCont {
   margin-top: 50px;
   display: flex;
+}
+
+.menuCont {
+  display: flex;
+  position: absolute;
+  /* justify-content: center; */
+  top:100px;
+  align-items: center;
+  /* background-color: #333333; */
+  margin-bottom: 150px;
+}
+
+.menuText {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  /* font-weight: bold; */
+  color: #ffffff;
+}
+
+.pFont {
+  font-size: 28px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
