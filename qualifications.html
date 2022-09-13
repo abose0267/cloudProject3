@@ -2,12 +2,15 @@
 <html>
   <head>
     <title>Arka's Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" id="page_style" />
   </head>
 
   <body class="body">
     <div class="container">
       <div class="menuCont">
+        <button type="button" onclick="toggle_mode()">Toggle Me!</button>
+
+        <script src="toggle.js"></script>
         <!-- <button class="buttonBackground">
           <div class="menuButton"></div>
           <div class="menuButton"></div>
@@ -32,7 +35,7 @@
       <div class="imageTextCont">
         <div style="padding-left: 60px; margin-right: 250px; margin-top: 125px">
           <div>
-            <h1 style="font-size: 85px; color: white">Qualifications</h1>
+            <h1 class="header">Qualifications</h1>
           </div>
 
           <p class="qualFont">

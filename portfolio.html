@@ -2,12 +2,16 @@
 <html>
   <head>
     <title>Arka's Website</title>
-    <link rel="stylesheet" href="styles.css" />
+     <link rel="stylesheet" type="text/css" href="styles.css" id="page_style" />
+
   </head>
 
   <body class="portfolio">
     <div class="container">
       <div class="menuCont">
+             <button type="button" onclick="toggle_mode()">Toggle Me!</button>
+
+        <script src="toggle.js"></script>
         <!-- <button class="buttonBackground">
           <div class="menuButton"></div>
           <div class="menuButton"></div>
@@ -32,7 +36,7 @@
       <div class="imageTextCont">
         <div class="textContAbout">
           <div>
-            <h1 style="font-size: 85px; color: white">Portfolio</h1>
+            <h1 class="header"">BiteParty!</h1>
           </div>
 
           <p class="qualFont">
@@ -49,31 +53,74 @@
       <div style= " display:flex;width:40%;align-items: flex-end;">
         <img class="imageCont3" src="./bp1.png" />
       </div>
+
     </div>
 
+    <div class="container">
 
+    <div style= "display:flex;width:40%;align-items: flex-end;">
+        <img class="imageCont3" src="./bp2.png" />
+      </div>
+      <div class="imageTextCont">
+        
+        <div class="textContAbout">
+
+          <div>
+            <h1 class="header">BiteParty!</h1>
+          </div>
+
+          <p class="qualFont">
+            BiteParty was built in React Native with a Firebase backend. Behind the scenes, during the course of each party, our app would take in data from each person in the party based on if they swiped right or left, and then calculate a score for each restaurant based on the swipes, and then would reccomend the restaurant with the highest score.
+          </p>
+        </div>
+      </div>
+  
+</div>
+    <div class="container">
 
       <div class="imageTextCont">
         <div class="textContAbout">
           <div>
-            <h1 style="font-size: 85px;">Portfolio</h1>
+            <h1 class="header">Zenith</h1>
           </div>
 
           <p class="qualFont">
-            BiteParty is a React Native Application that I developed along with
-            my friends, with the goal of solvng the problem of choosing a place
-            to eat when going out with a group of friends. The app lets users
-            set basic preferences such as radius, price range, and dietary
-            restrictions. Once the user sets those filters, everyone in the
-            group will see the same 10-15 restaurants and will swipe right or
-            left depending on what they want
-          </p>
+              Zenith is a mobile application that I developed with my friends that was designed to be a good mixture of Google Classroom and Remind. The app would act as a more efficient ways for students in classrooms or clubs to communicate with the club leaders or teachers. This communication would allow for the clubs/ classes to be run more efficiently, and with less mistakes on either side.
         </div>
       </div>
       <div style= " display:flex;width:40%;align-items: flex-end;">
-        <img class="imageCont3" src="./bp1.png" />
+        <img class="imageCont3" src="./zenith1.png" />
       </div>
+
     </div>
+
+
+    <div class="container">
+
+    <div style= "display:flex;width:40%;align-items: flex-end;">
+        <img class="imageCont3" src="./zenith2.png" />
+      </div>
+      <div class="imageTextCont">
+        
+        <div class="textContAbout">
+
+          <div>
+            <h1 class="header">BiteParty!</h1>
+          </div>
+
+          <p class="qualFont">
+            BiteParty was built in React Native with a Firebase backend. Behind the scenes, during the course of each party, our app would take in data from each person in the party based on if they swiped right or left, and then calculate a score for each restaurant based on the swipes, and then would reccomend the restaurant with the highest score.
+          </p>
+        </div>
+      </div>
+  
+</div>
+
+    </div>
+
+
+
+
 
           <!-- 
           <p class="qualFont">

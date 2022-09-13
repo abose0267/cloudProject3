@@ -1,16 +1,11 @@
-
 .container {
   width: 100%;
   height: 100%;
-  background-color: #222A36;
+  background-color: bisque ;
   display: flex;
   justify-content: center;
   /* align-items: center; */
   /* flex-direction: column; */
-}
-.header {
-    font-size: 85px; 
-   color: white
 }
 
 .body {
@@ -38,7 +33,7 @@
 
 .navBarText {
   display: block;
-  color: white;
+  color: #222A36;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -116,20 +111,25 @@ object-fit: cover;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 28px;
-
-  /* font */
+    font-family: cursive;
   /* font-weight: bold; */
-  color: #ffffff;
+  color: #222A36;
   text-decoration: none;
 }
 
 .pFont {
   font-size: 28px;
-  color: #ffffff;
+  color: #222A36;
+    font-family: cursive;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+.header {
+   font-size: 85px; 
+   color: #222A36;
+   font-family: cursive;
+}
 
 
 .slideshow-container {
@@ -151,8 +151,9 @@ object-fit: cover;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #222A36;
   font-weight: bold;
+    font-family: cursive;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -174,6 +175,7 @@ object-fit: cover;
 .text {
   color: #f2f2f2;
   font-size: 15px;
+    font-family: cursive;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -185,6 +187,7 @@ object-fit: cover;
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
+    font-family: cursive;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -225,7 +228,8 @@ object-fit: cover;
   width:220px;
   background-color: #67AADB;
   font-size: 25px;
-  color: white;
+    font-family: cursive;
+  color: #222A36;
 
 }
 
@@ -237,6 +241,8 @@ object-fit: cover;
   width:180px;
   background-color: #6e5494;
   font-size: 25px;
+    font-family: cursive;
+    color: #222A36;
 
 }
 
@@ -248,16 +254,18 @@ object-fit: cover;
   width:220px;
   background-color: #67AADB;
   font-size: 25px;
-    color: #ffffff;
+   color: #222A36;
+      font-family: cursive;
 
 }
 
 .qualFont {
     font-size: 35px;
-  color: #ffffff;
+ color: #222A36;
   /* margin-top: 20px; */
   margin-bottom: 20px;
   margin-right: 200px;
+    font-family: cursive;
 }
 
 .downloadButton {
@@ -269,7 +277,8 @@ object-fit: cover;
   background-color: #222A36;
   background-repeat: no-repeat;
   font-size: 25px;
-    color: #ffffff;
+   color: white;
+      font-family: cursive;
 }
 
 .portfolio {
@@ -321,11 +330,4 @@ border-radius: 30px;
 height:50%;
 border-radius: 30px;
 
-}
-
-
-.toggleButton {
-  position: absolute;
-  top: 50px;
-  left: 50px;
 }
