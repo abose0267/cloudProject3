@@ -318,6 +318,13 @@ border-radius: 30px;
 
 }
 
+.contactCont2 {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .serviceImageCont {
   object-fit: cover;
   margin-top: 200px;

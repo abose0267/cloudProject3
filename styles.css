@@ -100,6 +100,12 @@ object-fit: cover;
   align-items: center;
   justify-content: center;
 }
+.contactCont2 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .menuCont {
   display: flex;
