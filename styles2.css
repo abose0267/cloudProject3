@@ -226,7 +226,7 @@ object-fit: cover;
   margin-left: 10px;
   height: 80px;
   width:220px;
-  background-color: #67AADB;
+  background-color: white;
   font-size: 25px;
     font-family: cursive;
   color: #222A36;
@@ -252,7 +252,7 @@ object-fit: cover;
   margin-left: 10px;
   height: 80px;
   width:220px;
-  background-color: #67AADB;
+  background-color: white;
   font-size: 25px;
    color: #222A36;
       font-family: cursive;
@@ -337,4 +337,74 @@ border-radius: 30px;
 height:50%;
 border-radius: 30px;
 
+}
+
+.qualificationText {
+  padding-left: 60px;
+   margin-right: 250px; 
+   margin-top: 125px
+}
+
+.imageTextCont2 {
+  /* display: flex; */
+  margin-right: 400px;
+  /* margin-left: 300px */
+  /* background-color: #6e5494; */
+
+  padding-right: 100px;
+
+}
+.indexVal {
+  margin-top: -80px
+}
+
+.portfolioImg {
+  display:flex;
+  width:40%;
+  align-items: flex-end;
+}
+
+.iconCont {
+  display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.icon{
+  width: 70px;
+  height: 70px;
+}
+
+.iconButton {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.serviceText {
+    font-size: 35px;
+  color: #222A36;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  margin-right: 200px;
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    background-color: #222A36;
+    height:50px;
+    width: 120px;
+    color:white;
+    border-radius: 20px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
 }
