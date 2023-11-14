@@ -19,6 +19,8 @@ jobs:
       - name: "Update S3 Bucket"
         run: aws s3 sync ./ s3://www.cs412abose.xyz 
       
+      - name: "Cloud Front Delete Cache"
+        run: aws cloudfront create-invalidation --distribution-id ES451F0S2WX32 --paths '/*'
 
 
 
